@@ -1,0 +1,22 @@
+Higher Order components (HOC)
+
+    withCounter.js is HOC ,  ClickCounter.js and HoverCounter.js are regular components
+
+->  to share common functionality between components
+
+->  A pattern where a function takes component as an arguement
+
+    and returns a new component
+
+->  Ex: we need 2 components where one component increments counter 
+    based on no. of times a button is clicked
+
+    Another component also increments counter bu based on hovering
+    on the heading
+
+    So we can see we need some common functionality to add counter in state
+    and incrementing it
+
+    We can do this in regular way but it will have code duplication
+
+    So ....
