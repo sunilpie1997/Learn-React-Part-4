@@ -1,0 +1,14 @@
+Context
+
+->  It provides a way to pass data through component tree without
+
+    having to pass props down manually at every level
+
+
+-> For ex: in 'why-context.png', suppose  component 'D' anf 'F' require username property
+
+    but not all components require it. Still we have to manually pass down 'username'
+
+    prop all the way down. It can get tedious if the component tree is really big 
+
+->  ex: Components 'C', 'E' and 'F'. UserContext.js
