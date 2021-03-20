@@ -1,9 +1,11 @@
 Render Props
 
-->  Is not covered as I feel HOC is better :))   
+->  HOC and React Props are for same purposes.
 
 ->  Render prop is a technique for sharing code between react components
 
     using a prop whose value is a function.
 
-    Ex: RenderProps.js
+    Ex: RenderProps.js (basic example showing we can have function as prop's value).
+
+    Ex: Counter.js and ClickCounterTwo.js

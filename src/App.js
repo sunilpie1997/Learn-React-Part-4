@@ -1,5 +1,7 @@
 import './App.css';
 import ClickCounter from './components/ClickCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import Counter from './components/Counter';
 import HoverCounter from './components/HoverCounter';
 import RenderProps from './components/RenderProps';
 
@@ -15,7 +17,9 @@ function App() {
     /*
 
     /* render props basic example */
-    <RenderProps name={(isLoggedIn)=>isLoggedIn? 'Sunil Prajapat':'Guest'}/>
+    //<RenderProps name={(isLoggedIn)=>isLoggedIn? 'Sunil Prajapat':'Guest'}/>
+
+    <Counter render={(counter,incrementCount)=>(<ClickCounterTwo counter={counter} incrementCount={incrementCount}/>)}/>
   );
 }
 

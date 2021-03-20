@@ -3,7 +3,7 @@ import React from 'react';
 function RenderProps(props) {
     return (
         <div>
-            {this.props.name()}
+            {props.name(false)}
         </div>
     );
 }
