@@ -3,13 +3,13 @@ import withCounter from './withCounter';
 
 function HoverCounter(props) {
 
-    const {counter, incrementCount} = props;
+    const {counter, incrementCount,name} = props;
 
     return (
         <div>
-            <h1 onMouseOver={incrementCount}>Hovered me {counter} times</h1>
+            <h1 onMouseOver={incrementCount}>{name} Hovered me {counter} times</h1>
         </div>
     );
 }
 
-export default withCounter(HoverCounter);
+export default withCounter(HoverCounter,10);

@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       
-      <HoverCounter/>
-      <ClickCounter/>
+      <HoverCounter name="Sunil"/>
+      <ClickCounter name="Raju"/>
     </div>
   );
 }

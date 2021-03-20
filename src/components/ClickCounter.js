@@ -3,13 +3,13 @@ import withCounter from './withCounter';
 
 function ClickCounter(props) {
     
-    const {counter, incrementCount} = props;
+    const {counter, incrementCount, name} = props;
 
     return (
         <div>
-            <button onClick={incrementCount}>Clicked me {counter} times</button>        
+            <button onClick={incrementCount}>{name} Clicked me {counter} times</button>        
         </div>
     );
 }
 
-export default withCounter(ClickCounter);
+export default withCounter(ClickCounter,5);

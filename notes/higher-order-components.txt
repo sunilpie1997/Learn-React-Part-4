@@ -8,6 +8,14 @@ Higher Order components (HOC)
 
     and returns a new component
 
+->  Things To take care while writing HOC:
+
+    If you are passing props to <ClickCounter/> and <HoverCounter/> in App.js
+    then you cannot use them in respective components directly when they are passed to HOC.
+    You have to use:
+
+        see line no 22 in withCounter.js file
+
 ->  Ex: we need 2 components where one component increments counter 
     based on no. of times a button is clicked
 
