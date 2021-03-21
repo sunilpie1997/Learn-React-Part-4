@@ -4,6 +4,8 @@ import ClickCounter from './components/ClickCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import Counter from './components/Counter';
 import HoverCounter from './components/HoverCounter';
+import PostForm from './components/PostForm';
+import PostList from './components/PostList';
 import RenderProps from './components/RenderProps';
 import {UserProvider} from './components/UserContext';
 
@@ -29,9 +31,17 @@ function App() {
     //   <C/>
     // </UserProvider>
 
-    /* context default value usage */
+    /* context default value usage
     <C/>
+    */
 
+    /* Http request */
+
+    //GET
+    //<PostList/>
+
+    //POST
+    <PostForm/>
     );
 }
 

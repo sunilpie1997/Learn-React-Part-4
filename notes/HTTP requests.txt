@@ -1,0 +1,6 @@
+HTTP requests in React
+
+->  we will be using axios library (npm i axios)
+
+->  Ex: PostList.js (GET)
+        PostForm.js (POST)
