@@ -11,4 +11,6 @@ Context
 
     prop all the way down. It can get tedious if the component tree is really big 
 
+->  we can also add default value for Context : ex: UserContext  
+
 ->  ex: Components 'C', 'E' and 'F'. UserContext.js

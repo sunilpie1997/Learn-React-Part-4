@@ -1,7 +1,7 @@
 import React from 'react';
 
 //create context
-const UserContext=React.createContext();
+const UserContext=React.createContext('Superman');
 
 //create provider
 const UserProvider= UserContext.Provider;

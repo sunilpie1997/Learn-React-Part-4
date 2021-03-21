@@ -25,9 +25,13 @@ function App() {
      */
 
     /* context */
-    <UserProvider value="Sunil Pie">
-      <C/>
-    </UserProvider>
+    // <UserProvider value="Sunil Pie">
+    //   <C/>
+    // </UserProvider>
+
+    /* context default value usage */
+    <C/>
+
     );
 }
 
